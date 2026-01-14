@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "cvitek")(type "KiCad")(uri "${KIPRJMOD}/../lib/cvitek.kicad_sym")(options "")(descr ""))
+  (lib (name "nisshinbo")(type "KiCad")(uri "${KIPRJMOD}/../lib/nisshinbo.kicad_sym")(options "")(descr ""))
+  (lib (name "zetta")(type "KiCad")(uri "${KIPRJMOD}/../lib/zetta.kicad_sym")(options "")(descr ""))
+  (lib (name "onsemi")(type "KiCad")(uri "${KIPRJMOD}/../lib/onsemi.kicad_sym")(options "")(descr ""))
+  (lib (name "lowpower")(type "KiCad")(uri "${KIPRJMOD}/../lib/lowpower.kicad_sym")(options "")(descr ""))
+)
