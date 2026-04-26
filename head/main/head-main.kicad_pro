@@ -654,6 +654,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -687,12 +693,6 @@
           "group_by": false,
           "label": "milkV",
           "name": "milkV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
           "show": false
         },
         {
@@ -764,7 +764,7 @@
         "uuid": "6dbd2c58-cf83-4761-a4b0-11d3d3fe3a26"
       }
     ],
-    "used_designators": "#PWR39,U6",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
