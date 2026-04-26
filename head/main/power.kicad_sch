@@ -5,10 +5,11 @@
 	(uuid "93af751d-ffd4-4e5f-baee-5517f58ddb45")
 	(paper "A5")
 	(title_block
-		(title "HW1 / Head / Main - Power")
+		(title "HW1 / Head / Main")
 		(date "2025-10-07")
 		(rev "1")
 		(company "team noon")
+		(comment 1 "NanoID: AZq9ZVGu")
 		(comment 3 "github.com/team-noon/hw1")
 		(comment 4 "Drawn By: Sam")
 	)
