@@ -9,7 +9,7 @@
 		(date "2025-10-09")
 		(rev "1")
 		(company "team noon")
-		(comment 1 "NanoID: rI02tsXA")
+		(comment 1 "NanoID: GRG4UQ")
 		(comment 3 "github.com/team-noon/hw1")
 		(comment 4 "Drawn By: Sam")
 	)
@@ -6795,6 +6795,17 @@
 				)
 			)
 		)
+		(property "LCSC" "-"
+			(at 83.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fe06bb2e-c0e4-4d47-ab77-de5496c81d25")
 		)
@@ -6876,6 +6887,17 @@
 				)
 			)
 		)
+		(property "LCSC" "-"
+			(at 130.81 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "head-comms"
 				(path "/a00faf05-8464-4a38-a338-9c67c7b17254"
@@ -6941,6 +6963,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 60.96 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
+			(at 60.96 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7110,6 +7143,17 @@
 				)
 			)
 		)
+		(property "LCSC" "-"
+			(at 146.05 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "head-comms"
 				(path "/a00faf05-8464-4a38-a338-9c67c7b17254"
@@ -7185,6 +7229,17 @@
 				)
 			)
 		)
+		(property "LCSC" "-"
+			(at 140.97 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "head-comms"
 				(path "/a00faf05-8464-4a38-a338-9c67c7b17254"
@@ -7250,6 +7305,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 76.2 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
 			(at 76.2 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7822,6 +7888,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 68.58 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
+			(at 68.58 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8988,6 +9065,17 @@
 				)
 			)
 		)
+		(property "LCSC" "*"
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "698e1e05-560d-4e7e-9356-5691536677f4")
 		)
@@ -9024,7 +9112,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 82.55 87.6299 0)
 			(hide yes)
 			(show_name no)
@@ -9059,6 +9147,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 78.74 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
 			(at 78.74 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9139,6 +9238,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 49.53 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
 			(at 49.53 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9539,6 +9649,17 @@
 				)
 			)
 		)
+		(property "LCSC" "*"
+			(at 73.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ada31d8e-91ec-496e-9a8f-bcf9c8535872")
 		)
@@ -9777,6 +9898,17 @@
 				)
 			)
 		)
+		(property "LCSC" "-"
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "head-comms"
 				(path "/a00faf05-8464-4a38-a338-9c67c7b17254"
@@ -9921,6 +10053,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 68.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
+			(at 68.58 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10118,6 +10261,17 @@
 				)
 			)
 		)
+		(property "LCSC" "*"
+			(at 31.75 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fd9fcd48-18b3-44a2-b28f-ab023f1db1b5")
 		)
@@ -10280,6 +10434,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 26.67 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
 			(at 26.67 115.57 0)
 			(hide yes)
 			(show_name no)
