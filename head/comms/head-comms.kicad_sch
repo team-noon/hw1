@@ -4937,16 +4937,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DNF"
-		(exclude_from_sim no)
-		(at 83.82 86.36 90)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "1386f2ad-102c-428e-940c-258764deb9c5")
-	)
 	(text "~3W"
 		(exclude_from_sim no)
 		(at 166.37 53.34 0)
@@ -4976,13 +4966,19 @@
 		(uuid "0b73db1f-b72a-4ba6-a683-036791e8cf9d")
 	)
 	(junction
+		(at 29.21 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f1a95b4-0d94-4b5f-87a5-6b2d71c07f32")
+	)
+	(junction
 		(at 106.68 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12888df6-75fd-460e-a0cf-102295b4b08b")
 	)
 	(junction
-		(at 44.45 85.09)
+		(at 44.45 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13515f80-2b40-411a-b917-37420078dc1d")
@@ -4998,12 +4994,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1787500a-0ebd-4b48-9a17-d8a0dade67a4")
-	)
-	(junction
-		(at 29.21 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19b1bf21-ea09-40dc-bd4f-a80a2b5f5a56")
 	)
 	(junction
 		(at 31.75 66.04)
@@ -5072,22 +5062,16 @@
 		(uuid "683fcfea-c882-447f-8c08-e3acd37014e2")
 	)
 	(junction
-		(at 29.21 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68bb1b88-388a-4592-9ee6-2a377c6f7481")
-	)
-	(junction
 		(at 35.56 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cf7ea7f-92fa-4bbc-9e61-d7cf2a7f9ce2")
 	)
 	(junction
-		(at 29.21 85.09)
+		(at 29.21 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "80794bdb-ff2a-40ce-8bfd-ea7c6f757e60")
+		(uuid "8cf4f49e-9053-4803-ba61-c52ed4cf41d7")
 	)
 	(junction
 		(at 57.15 119.38)
@@ -5114,7 +5098,7 @@
 		(uuid "b97db0fc-9a9e-4630-b6d2-def897c59293")
 	)
 	(junction
-		(at 36.83 90.17)
+		(at 36.83 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd139b74-f20b-44b8-88e4-46dabf336766")
@@ -5219,7 +5203,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 87.63) (xy 29.21 85.09)
+			(xy 29.21 83.82) (xy 29.21 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5239,7 +5223,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 77.47) (xy 35.56 80.01)
+			(xy 35.56 93.98) (xy 35.56 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5329,7 +5313,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 87.63) (xy 36.83 90.17)
+			(xy 36.83 83.82) (xy 36.83 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5349,7 +5333,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 82.55) (xy 35.56 82.55)
+			(xy 29.21 88.9) (xy 35.56 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5379,7 +5363,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 92.71) (xy 29.21 97.79)
+			(xy 29.21 81.28) (xy 29.21 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5729,7 +5713,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 85.09) (xy 44.45 85.09)
+			(xy 29.21 86.36) (xy 44.45 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5809,7 +5793,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 80.01) (xy 29.21 80.01)
+			(xy 35.56 91.44) (xy 29.21 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5859,16 +5843,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 90.17) (xy 29.21 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa4a6533-c726-4ab6-9d62-69ef01769107")
-	)
-	(wire
-		(pts
 			(xy 46.99 45.72) (xy 54.61 45.72)
 		)
 		(stroke
@@ -5879,7 +5853,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 85.09) (xy 45.72 85.09)
+			(xy 44.45 86.36) (xy 45.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5899,7 +5873,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 85.09) (xy 44.45 87.63)
+			(xy 44.45 86.36) (xy 44.45 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5919,7 +5893,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 90.17) (xy 36.83 90.17)
+			(xy 29.21 81.28) (xy 36.83 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6269,17 +6243,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 97.79) (xy 29.21 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f39ac09f-7442-4c45-b0ad-ea5f9fafc364")
-	)
-	(wire
-		(pts
-			(xy 36.83 90.17) (xy 45.72 90.17)
+			(xy 36.83 81.28) (xy 45.72 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6478,7 +6442,7 @@
 		(uuid "8a4e2997-44af-48f3-bad8-e54df0079818")
 	)
 	(label "DB"
-		(at 33.02 80.01 180)
+		(at 33.02 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6528,7 +6492,7 @@
 		(uuid "a4d55a70-fd73-4225-82eb-f2b25bfd90ba")
 	)
 	(label "DA"
-		(at 31.75 82.55 180)
+		(at 31.75 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6629,6 +6593,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 24.13 96.52 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "026cf397-98f3-480b-826f-3d28eb588738")
+		(property "Reference" "#PWR010"
+			(at 24.13 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "425da0dc-02a1-4610-bfee-c71926cf863e")
+		)
+		(instances
+			(project "head-comms"
+				(path "/a00faf05-8464-4a38-a338-9c67c7b17254"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 92.71 66.04 90)
 		(unit 1)
 		(body_style 1)
@@ -6712,10 +6755,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "10df7d72-f136-45cd-91ad-77fac38f19b7")
 		(property "Reference" "R1"
 			(at 83.82 92.71 0)
@@ -6727,7 +6770,7 @@
 				)
 			)
 		)
-		(property "Value" "120 (DNF)"
+		(property "Value" "120"
 			(at 86.36 87.6299 0)
 			(hide yes)
 			(show_name no)
@@ -6773,6 +6816,28 @@
 			)
 		)
 		(property "LCSC" "-"
+			(at 83.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 83.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 83.82 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6875,6 +6940,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 130.81 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 130.81 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "head-comms"
 				(path "/a00faf05-8464-4a38-a338-9c67c7b17254"
@@ -6950,6 +7037,28 @@
 			)
 		)
 		(property "LCSC" "*"
+			(at 60.96 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 60.96 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 60.96 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -7131,6 +7240,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 146.05 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 146.05 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "head-comms"
 				(path "/a00faf05-8464-4a38-a338-9c67c7b17254"
@@ -7217,6 +7348,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 140.97 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 140.97 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "head-comms"
 				(path "/a00faf05-8464-4a38-a338-9c67c7b17254"
@@ -7293,6 +7446,28 @@
 			)
 		)
 		(property "LCSC" "*"
+			(at 76.2 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 76.2 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 76.2 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7400,6 +7575,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 59.69 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 59.69 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "4f0557e8-0ebd-4614-ab71-d5525e37e423")
 		)
@@ -7422,6 +7619,134 @@
 			(project "head-comms"
 				(path "/a00faf05-8464-4a38-a338-9c67c7b17254"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
+		(at 24.13 83.82 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6702715d-fc33-43df-ac92-c55c1708e2cd")
+		(property "Reference" "J4"
+			(at 24.13 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "conn_chest"
+			(at 24.13 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
+			(at 24.13 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 24.13 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C160405"
+			(at 24.13 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 24.13 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 24.13 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a281b5f-3e58-4482-bb29-fb1cc7eda374")
+		)
+		(pin "2"
+			(uuid "232c2994-a8fd-43ee-8c19-b0632aa28539")
+		)
+		(pin "MP"
+			(uuid "470f8fcc-2a80-449f-9933-e71d22e0e201")
+		)
+		(pin "6"
+			(uuid "3e9393c7-8375-4000-abc3-c5715d234bb7")
+		)
+		(pin "3"
+			(uuid "497f7ec5-7d6a-491e-80ab-9fc515f2d5be")
+		)
+		(pin "5"
+			(uuid "578fb596-6738-4fbf-8b28-dac80a9c18ac")
+		)
+		(pin "4"
+			(uuid "aaa6a061-0947-4e79-a41d-92409c470738")
+		)
+		(instances
+			(project "head-comms"
+				(path "/a00faf05-8464-4a38-a338-9c67c7b17254"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7493,6 +7818,28 @@
 			)
 		)
 		(property "LCSC" "C3644774"
+			(at 167.64 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 167.64 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 167.64 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7732,7 +8079,8 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 45.72 85.09 270)
+		(at 45.72 86.36 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7743,7 +8091,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a7b840a-2e52-41b3-bb25-dc40eb74b165")
 		(property "Reference" "#PWR011"
-			(at 41.91 85.09 0)
+			(at 41.91 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7754,7 +8102,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 49.53 85.0899 90)
+			(at 49.53 86.3601 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7765,7 +8113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7776,7 +8124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7787,7 +8135,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7875,6 +8223,28 @@
 			)
 		)
 		(property "LCSC" "*"
+			(at 68.58 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 68.58 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 68.58 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -8056,6 +8426,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 99.06 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 99.06 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "cdbf72ce-f303-40ce-b913-58ed58d0eed3")
 		)
@@ -8156,6 +8548,28 @@
 		)
 		(property "LCSC" "C3194629"
 			(at 46.99 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 46.99 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 46.99 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8351,7 +8765,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 80.01 90)
+		(at 45.72 91.44 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8362,7 +8777,7 @@
 		(fields_autoplaced yes)
 		(uuid "94cd25fa-65a9-42e6-872d-4d7e64d853af")
 		(property "Reference" "#PWR012"
-			(at 52.07 80.01 0)
+			(at 52.07 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8373,7 +8788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 80.0099 90)
+			(at 49.53 91.4401 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8384,7 +8799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 80.01 0)
+			(at 45.72 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8395,7 +8810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 80.01 0)
+			(at 45.72 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8406,7 +8821,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 80.01 0)
+			(at 45.72 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8495,6 +8910,28 @@
 		)
 		(property "LCSC" "C3235556"
 			(at 74.93 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 74.93 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 74.93 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8616,6 +9053,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 118.11 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 118.11 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "fac12653-d420-4d79-804e-938cabde6f11")
 		)
@@ -8639,7 +9098,8 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 40.64 87.63 180)
+		(at 40.64 83.82 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8649,7 +9109,7 @@
 		(dnp no)
 		(uuid "99aeb745-8ae2-4ccf-98d0-9e256b99c2a1")
 		(property "Reference" "D10"
-			(at 40.64 92.71 0)
+			(at 40.64 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8659,7 +9119,7 @@
 			)
 		)
 		(property "Value" "ESD5Zxx"
-			(at 40.64 91.44 0)
+			(at 40.64 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8670,7 +9130,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 40.64 83.185 0)
+			(at 40.64 88.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8681,7 +9141,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 40.64 87.63 0)
+			(at 40.64 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8692,7 +9152,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 40.64 87.63 0)
+			(at 40.64 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8703,7 +9163,29 @@
 			)
 		)
 		(property "LCSC" "C82323"
-			(at 40.64 87.63 0)
+			(at 40.64 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 40.64 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 40.64 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9041,6 +9523,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "698e1e05-560d-4e7e-9356-5691536677f4")
 		)
@@ -9123,6 +9627,28 @@
 			)
 		)
 		(property "LCSC" "*"
+			(at 78.74 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 78.74 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 78.74 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9224,6 +9750,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 49.53 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 49.53 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ab2e1e82-6cc3-4575-8df7-40ad741fa0ac")
 		)
@@ -9241,7 +9789,8 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:SZNUP2105L")
-		(at 40.64 80.01 90)
+		(at 40.64 91.44 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9251,7 +9800,7 @@
 		(dnp no)
 		(uuid "ced3d5b0-7bfa-4c5f-a1f0-78040e504916")
 		(property "Reference" "D1"
-			(at 40.64 73.66 90)
+			(at 40.64 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9261,7 +9810,7 @@
 			)
 		)
 		(property "Value" "SZNUP2105L"
-			(at 40.64 73.66 90)
+			(at 40.64 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9272,7 +9821,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 41.91 74.295 0)
+			(at 41.91 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9284,7 +9833,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
-			(at 37.465 76.835 0)
+			(at 37.465 94.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9295,7 +9844,7 @@
 			)
 		)
 		(property "Description" "Dual Line CAN Bus Protector, 24Vrwm, Automotive Grade"
-			(at 40.64 80.01 0)
+			(at 40.64 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9306,7 +9855,29 @@
 			)
 		)
 		(property "LCSC" "C233494"
-			(at 40.64 80.01 90)
+			(at 40.64 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 40.64 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 40.64 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9488,6 +10059,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 31.75 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 31.75 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A9"
 			(uuid "d2ea6b86-619f-4f81-b6fe-8cc086b0ea3e")
 		)
@@ -9615,6 +10208,28 @@
 			)
 		)
 		(property "LCSC" "*"
+			(at 73.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 73.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 73.66 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9874,6 +10489,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "head-comms"
 				(path "/a00faf05-8464-4a38-a338-9c67c7b17254"
@@ -9885,7 +10522,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 90.17 90)
+		(at 45.72 81.28 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9896,7 +10534,7 @@
 		(fields_autoplaced yes)
 		(uuid "e43a4a71-b039-47c4-9621-91229a5f6962")
 		(property "Reference" "#PWR032"
-			(at 52.07 90.17 0)
+			(at 52.07 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9907,7 +10545,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 90.1699 90)
+			(at 49.53 81.2801 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9918,7 +10556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 90.17 0)
+			(at 45.72 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9929,7 +10567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 90.17 0)
+			(at 45.72 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9940,7 +10578,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 90.17 0)
+			(at 45.72 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10038,6 +10676,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 68.58 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 68.58 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4a542a6e-2604-404f-bed4-bb243f4e10f4")
 		)
@@ -10048,113 +10708,6 @@
 			(project "head-comms"
 				(path "/a00faf05-8464-4a38-a338-9c67c7b17254"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
-		(at 24.13 85.09 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6e02776-cf28-45c1-b3bb-7971b07f0797")
-		(property "Reference" "J4"
-			(at 24.13 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "conn_chest"
-			(at 24.13 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "misc:A1257WV-S-6P-LCP"
-			(at 24.13 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 24.13 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C225129"
-			(at 24.13 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f6b3c621-a91b-4ae2-a94a-bba1379cdf0c")
-		)
-		(pin "2"
-			(uuid "f2684f80-72ef-4777-b6db-314d75f5e977")
-		)
-		(pin "MP"
-			(uuid "b11ddefc-b282-44ce-b974-e39d558365a0")
-		)
-		(pin "6"
-			(uuid "7124f440-5210-4302-9307-168ae37ad71b")
-		)
-		(pin "3"
-			(uuid "69a362da-1b2d-4c89-96d1-0598c8b3eb13")
-		)
-		(pin "5"
-			(uuid "d5421bbf-0b0b-443e-830c-5186f3eaf754")
-		)
-		(pin "4"
-			(uuid "fdf50cfb-26cd-46ff-9420-4866bb5b7c9f")
-		)
-		(instances
-			(project "head-comms"
-				(path "/a00faf05-8464-4a38-a338-9c67c7b17254"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -10227,6 +10780,28 @@
 			)
 		)
 		(property "LCSC" "*"
+			(at 31.75 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 31.75 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 31.75 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10328,6 +10903,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 60.96 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 60.96 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cc7149f6-8aba-422a-84ea-b031ec73ae6b")
 		)
@@ -10410,6 +11007,28 @@
 			)
 		)
 		(property "LCSC" "*"
+			(at 26.67 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 26.67 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 26.67 115.57 0)
 			(hide yes)
 			(show_name no)
