@@ -1,5 +1,6 @@
 (sym_lib_table
-  (version 7)
-  (lib (name "ti")(type "KiCad")(uri "${KIPRJMOD}/lib/ti.kicad_sym")(options "")(descr ""))
-  (lib (name "nisshinbo")(type "KiCad")(uri "${KIPRJMOD}/lib/nisshinbo.kicad_sym")(options "")(descr ""))
+	(version 7)
+	(lib (name "ti") (type "KiCad") (uri "${KIPRJMOD}/lib/ti.kicad_sym") (options "") (descr ""))
+	(lib (name "nisshinbo") (type "KiCad") (uri "${KIPRJMOD}/lib/nisshinbo.kicad_sym") (options "") (descr ""))
+	(lib (name "maxlinear") (type "KiCad") (uri "/Users/sam/Projects/fuyu/hibiki/hardware/pcb/lib/maxlinear.kicad_sym") (options "") (descr ""))
 )
