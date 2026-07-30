@@ -290,7 +290,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "missing_input_pin|2336800|647700|dddfed78-7f9c-4f02-80ea-6c5f553bb17f|00000000-0000-0000-0000-000000000000|/b2b55967-ec03-44c4-b9a3-9b627219672b|/b2b55967-ec03-44c4-b9a3-9b627219672b|",
+        ""
+      ],
+      [
+        "missing_unit|2336800|647700|dddfed78-7f9c-4f02-80ea-6c5f553bb17f|00000000-0000-0000-0000-000000000000|/b2b55967-ec03-44c4-b9a3-9b627219672b|/b2b55967-ec03-44c4-b9a3-9b627219672b|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -522,7 +531,9 @@
       "misc",
       "ti",
       "wch",
-      "maxlinear"
+      "maxlinear",
+      "worldsemi",
+      "nisshinbo"
     ]
   },
   "meta": {
@@ -728,7 +739,7 @@
         "uuid": "b2b55967-ec03-44c4-b9a3-9b627219672b"
       }
     ],
-    "used_designators": "J3,J5,J7-8,L1,D1,D3,D5-6,D8-9,#PWR1-3,#PWR7-12,#PWR19,#PWR34,#PWR36,#PWR39-40,#PWR43-46,C1-5,C12-13,C15,C22-25,R2-8,R10-12,R14-19,U1,U4,U6,U8-10",
+    "used_designators": "J3,J5,J7-8,L1,D1,D3,D5-6,D8-9,#PWR1-3,#PWR7-12,#PWR19,#PWR31,#PWR34,#PWR36,#PWR39-40,#PWR43-46,C1-5,C12-13,C15,C22-25,R2-8,R10-12,R14-19,U1,U4,U6,U8-10",
     "variants": []
   },
   "sheets": [
