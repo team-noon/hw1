@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "worldsemi") (type "KiCad") (uri "${KIPRJMOD}/lib/worldsemi.kicad_sym") (options "") (descr ""))
+	(lib (name "semiment") (type "KiCad") (uri "${KIPRJMOD}/lib/semiment.kicad_sym") (options "") (descr ""))
+)
