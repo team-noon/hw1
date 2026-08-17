@@ -3274,12 +3274,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
+		(symbol "MountingScrew_1"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -3287,27 +3286,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
+			(property "Reference" "H1"
+				(at 0 4.064 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
+			(property "Value" "MountingScrew"
+				(at 0 -3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3329,7 +3330,7 @@
 					)
 				)
 			)
-			(property "Description" "Mounting Hole with connection"
+			(property "Description" "Mounting screw"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3340,7 +3341,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "mounting hole"
+			(property "ki_keywords" "mounting screw"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3351,7 +3352,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
+			(property "ki_fp_filters" "Screw?Generic*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3362,12 +3363,75 @@
 					)
 				)
 			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
+			(symbol "MountingScrew_1_0_1"
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 1.27)
+					)
 					(stroke
-						(width 1.27)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0.635) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0.635 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.635) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27) (xy 1.27 2.54) (xy 0.254 2.54) (xy 0.254 1.905)
+						(xy -0.254 1.905) (xy -0.254 2.54) (xy -1.27 2.54) (xy -1.27 1.27) (xy -0.635 1.27) (xy -0.635 -1.27)
+						(xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -3375,11 +3439,11 @@
 					)
 				)
 			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
+			(symbol "MountingScrew_1_1_1"
+				(pin passive line
 					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
+					(length 1.27)
+					(name "PAD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4434,145 +4498,6 @@
 				)
 			)
 			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:VCCQ"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VCCQ"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCCQ_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCCQ_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -5862,12 +5787,6 @@
 		(uuid "f8847105-58df-4aad-98ea-8952da2694e5")
 	)
 	(junction
-		(at 167.64 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02746e42-3720-4126-bfcf-e5658ca98985")
-	)
-	(junction
 		(at 173.99 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5878,6 +5797,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08f764ba-1f7c-4c0c-9b23-b17df9294375")
+	)
+	(junction
+		(at 163.195 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0944855c-e1ae-45a0-8ffe-f868bdfdaf91")
 	)
 	(junction
 		(at 44.45 69.85)
@@ -5896,12 +5821,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b2c8dec-fb56-4a3d-8123-c3458e246fd5")
-	)
-	(junction
-		(at 182.88 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c31239c-b7b6-4e7b-8beb-184949a1478c")
 	)
 	(junction
 		(at 123.19 35.56)
@@ -5926,12 +5845,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2506799f-fb25-4669-8f75-a18b7a66e7d4")
-	)
-	(junction
-		(at 162.56 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2955d474-6190-4b97-815e-2c764f4b00f8")
 	)
 	(junction
 		(at 72.39 189.23)
@@ -6024,6 +5937,18 @@
 		(uuid "6bd63179-2b02-4710-8964-679f03c32f8c")
 	)
 	(junction
+		(at 270.51 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ce6eb12-ac9b-4d73-9e2e-1e332b7b6e23")
+	)
+	(junction
+		(at 163.195 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7543fc04-6e4b-43a0-8ea6-ab49aa820b9b")
+	)
+	(junction
 		(at 248.92 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6034,6 +5959,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e352c11-df7f-4854-902b-c09a721398ce")
+	)
+	(junction
+		(at 278.13 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b2d4405-bc56-4d4e-ad3e-8f1d89e9a564")
 	)
 	(junction
 		(at 173.99 35.56)
@@ -6120,16 +6051,16 @@
 		(uuid "b7e421a8-f534-46f1-afee-e244a455ec78")
 	)
 	(junction
-		(at 172.72 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9ae8b78-6214-4b28-9625-170744a81844")
-	)
-	(junction
 		(at 158.75 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbf20436-7332-417b-85e4-3d4bf8350325")
+	)
+	(junction
+		(at 274.32 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2a7a7c3-9919-4eeb-902b-7e4ba45c8e49")
 	)
 	(junction
 		(at 248.92 64.77)
@@ -6156,28 +6087,10 @@
 		(uuid "d66bf596-2341-4827-abe2-6fe7f16e10f9")
 	)
 	(junction
-		(at 177.8 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9c4f3df-1634-4cc0-9c72-3fd7f9b0d723")
-	)
-	(junction
 		(at 48.26 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e624986d-5635-4f4f-bd39-09814b96f845")
-	)
-	(junction
-		(at 162.56 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edb23ee7-e445-44a0-8f8d-939e783508fe")
-	)
-	(junction
-		(at 167.64 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f03b0484-ce77-4885-b7bb-6d432d12f65b")
 	)
 	(junction
 		(at 111.76 53.34)
@@ -6295,16 +6208,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 78.74) (xy 170.18 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "105d6037-0555-49b8-b71e-add0d2bec74c")
-	)
-	(wire
-		(pts
 			(xy 123.19 140.97) (xy 129.54 140.97)
 		)
 		(stroke
@@ -6355,16 +6258,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 86.36) (xy 170.18 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a956661-846b-4216-a86f-52aa6ce8d0ca")
-	)
-	(wire
-		(pts
 			(xy 127 101.6) (xy 135.89 101.6)
 		)
 		(stroke
@@ -6372,6 +6265,16 @@
 			(type default)
 		)
 		(uuid "1af7bd55-089a-4000-824d-e5caa05833c4")
+	)
+	(wire
+		(pts
+			(xy 268.605 172.72) (xy 270.51 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1a1edb-10b9-4723-a6ba-a68d1e0b34e3")
 	)
 	(wire
 		(pts
@@ -6665,7 +6568,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 86.36) (xy 162.56 86.36)
+			(xy 158.75 86.36) (xy 163.195 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6702,6 +6605,16 @@
 			(type default)
 		)
 		(uuid "52e0671e-d56a-46dd-8ed4-6c8d5b1744af")
+	)
+	(wire
+		(pts
+			(xy 274.32 172.72) (xy 278.13 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d4c0f4-a35e-4ddd-b35e-702363e78bf0")
 	)
 	(wire
 		(pts
@@ -6815,16 +6728,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 146.05) (xy 182.88 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68ff42c5-123c-4861-8be3-a7d6db2a41ed")
-	)
-	(wire
-		(pts
 			(xy 248.92 114.3) (xy 248.92 107.95)
 		)
 		(stroke
@@ -6865,6 +6768,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.195 78.74) (xy 166.37 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb7d532-9920-4385-b673-be2e395e7d84")
+	)
+	(wire
+		(pts
 			(xy 43.18 148.59) (xy 46.99 148.59)
 		)
 		(stroke
@@ -6885,13 +6798,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 146.05) (xy 187.96 146.05)
+			(xy 163.195 86.36) (xy 166.37 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "737ec386-5efa-4ea2-a7ac-83855d2b1243")
+		(uuid "73c464f8-cf0b-4492-8115-8a458ca3a2b5")
 	)
 	(wire
 		(pts
@@ -7145,17 +7058,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 78.74) (xy 167.64 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "984be149-5f2f-45ff-bcc2-44e34b517a73")
-	)
-	(wire
-		(pts
-			(xy 158.75 78.74) (xy 162.56 78.74)
+			(xy 158.75 78.74) (xy 163.195 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7175,17 +7078,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 146.05) (xy 177.8 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3e20369-f6a2-4232-a334-25be2b94098f")
-	)
-	(wire
-		(pts
-			(xy 24.13 179.07) (xy 33.02 179.07)
+			(xy 24.13 179.07) (xy 57.15 179.07)
 		)
 		(stroke
 			(width 0)
@@ -7425,6 +7318,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 172.72) (xy 274.32 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4b3fb66-8495-476d-9223-b87d8f0ac05b")
+	)
+	(wire
+		(pts
 			(xy 217.17 62.23) (xy 222.25 62.23)
 		)
 		(stroke
@@ -7435,16 +7338,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 86.36) (xy 167.64 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9b917c1-6b8c-45dc-a95f-519ed721f4d6")
-	)
-	(wire
-		(pts
 			(xy 149.86 45.72) (xy 160.02 45.72)
 		)
 		(stroke
@@ -7452,16 +7345,6 @@
 			(type default)
 		)
 		(uuid "cb8371ec-6112-45b5-824b-7634d1eb3096")
-	)
-	(wire
-		(pts
-			(xy 170.18 146.05) (xy 172.72 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf4b1c76-1a46-47c9-8890-d41509252dfd")
 	)
 	(wire
 		(pts
@@ -7602,6 +7485,16 @@
 			(type default)
 		)
 		(uuid "f4430799-f663-47c7-b064-0db9d7062783")
+	)
+	(wire
+		(pts
+			(xy 278.13 172.72) (xy 281.94 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6938b96-f617-461a-8034-6252b075e6a1")
 	)
 	(wire
 		(pts
@@ -8195,6 +8088,7 @@
 	(symbol
 		(lib_id "Diode:SM712_SOT23")
 		(at 252.73 116.84 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8204,7 +8098,7 @@
 		(dnp no)
 		(uuid "0882cfc9-f183-4b1e-9b35-ec22c46c472c")
 		(property "Reference" "D5"
-			(at 255.27 113.03 90)
+			(at 255.27 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8215,7 +8109,7 @@
 			)
 		)
 		(property "Value" "SM712_SOT23"
-			(at 250.19 118.1099 90)
+			(at 250.19 115.5701 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8238,7 +8132,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf"
-			(at 252.73 120.65 0)
+			(at 252.73 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8388,95 +8282,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 177.8 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0b0eb250-05c1-45a7-9218-830afca5d55c")
-		(property "Reference" "H2"
-			(at 177.8 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 180.34 143.5099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 177.8 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 177.8 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "-"
-			(at 177.8 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ba2c11c-97eb-476e-a66c-4735930eacf1")
-		)
-		(instances
-			(project "motor-servo"
-				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 64.77 189.23 0)
 		(unit 1)
@@ -8549,6 +8354,97 @@
 			(project "motor-servo"
 				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MountingScrew_1")
+		(lib_id "Auxiliary_Items:MountingScrew")
+		(at 270.51 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e43496c-e571-4595-b7eb-363310bc09b7")
+		(property "Reference" "H4"
+			(at 270.51 166.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingScrew"
+			(at 270.51 173.736 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 270.51 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting screw"
+			(at 270.51 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-"
+			(at 270.51 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08001d60-4705-4b83-a9e6-d60be980a129")
+		)
+		(instances
+			(project "motor-servo"
+				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -8628,164 +8524,6 @@
 			(project "motor-servo"
 				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCCQ")
-		(at 118.11 182.88 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1321a297-a717-4799-be36-6ff19b0a16a8")
-		(property "Reference" "#PWR032"
-			(at 114.3 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCCQ"
-			(at 121.92 182.8799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 118.11 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d68021a2-f197-46a2-aa4b-347f56dd7393")
-		)
-		(instances
-			(project "motor-servo"
-				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 170.18 146.05 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1623eb3f-7b55-4480-bade-5529f96d158d")
-		(property "Reference" "#PWR025"
-			(at 163.83 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 146.0499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9fdeace4-8a4c-4795-b6db-e6c66d57880a")
-		)
-		(instances
-			(project "motor-servo"
-				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8890,7 +8628,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2u (16V)"
 			(at 153.67 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -8934,7 +8672,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12530"
+		(property "LCSC" "*"
 			(at 153.67 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -8955,95 +8693,6 @@
 			(project "motor-servo"
 				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 182.88 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1eb6297b-3230-42f7-85ef-23cf6ab39ba4")
-		(property "Reference" "H3"
-			(at 182.88 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 185.42 143.5099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 182.88 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 182.88 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "-"
-			(at 182.88 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e2839a0-91e4-400d-b0a2-a86cc12cb13f")
-		)
-		(instances
-			(project "motor-servo"
-				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -9105,6 +8754,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 163.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
 			(at 163.83 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9291,7 +8951,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 162.56 82.55 0)
+		(at 163.195 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9301,7 +8961,7 @@
 		(dnp no)
 		(uuid "2ffec86f-2890-4f13-b517-7105d11318b9")
 		(property "Reference" "C14"
-			(at 162.56 76.2 0)
+			(at 163.195 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9310,8 +8970,8 @@
 				)
 			)
 		)
-		(property "Value" "100n"
-			(at 166.37 83.8199 0)
+		(property "Value" "100n (16V)"
+			(at 167.005 83.8199 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9323,7 +8983,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 163.5252 86.36 0)
+			(at 164.1602 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9334,7 +8994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 82.55 0)
+			(at 163.195 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9345,7 +9005,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 162.56 82.55 0)
+			(at 163.195 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9355,8 +9015,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C77020"
-			(at 162.56 82.55 0)
+		(property "LCSC" "*"
+			(at 163.195 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9563,98 +9223,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 167.64 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3dd6f20b-8b08-44f3-939a-2d22856c9ab9")
-		(property "Reference" "C25"
-			(at 167.64 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 171.45 83.8199 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 168.6052 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 167.64 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C77020"
-			(at 167.64 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e0c2f9ac-6fef-40b2-8fbf-46fa315599e0")
-		)
-		(pin "2"
-			(uuid "0a750a2c-d0d5-4573-925d-0556092879bc")
-		)
-		(instances
-			(project "motor-servo"
-				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 156.21 35.56 90)
 		(unit 1)
@@ -9766,7 +9334,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10"
 			(at 245.11 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -9801,6 +9369,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 245.11 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
+			(at 245.11 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9905,6 +9484,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 78.74 179.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c39f1ff-1c99-4bea-866c-92c112f40fc2")
+		(property "Reference" "#PWR015"
+			(at 74.93 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 82.55 179.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 78.74 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca24b20c-914e-45e0-bac9-dbfc2f9bad32")
+		)
+		(instances
+			(project "motor-servo"
+				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 232.41 82.55 0)
 		(unit 1)
@@ -9983,85 +9641,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCCQ")
-		(at 78.74 179.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50ceaacb-079e-4ec2-84cc-dc55461b1575")
-		(property "Reference" "#PWR024"
-			(at 74.93 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCCQ"
-			(at 82.55 179.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 78.74 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe5701f8-a85c-4201-acca-db9aee5579f0")
-		)
-		(instances
-			(project "motor-servo"
-				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 162.56 184.15 0)
 		(unit 1)
@@ -10082,7 +9661,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1u (16V)"
 			(at 166.37 185.4199 0)
 			(hide yes)
 			(show_name no)
@@ -10127,7 +9706,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7001784"
+		(property "LCSC" "*"
 			(at 162.56 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -10174,7 +9753,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10u (16V)"
 			(at 80.01 184.1499 0)
 			(hide yes)
 			(show_name no)
@@ -10219,7 +9798,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C315248"
+		(property "LCSC" "*"
 			(at 76.2 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -10361,85 +9940,6 @@
 			(project "motor-servo"
 				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCCQ")
-		(at 33.02 179.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54ece5b6-8fb5-4a90-baa1-c6ed3e9cb2e0")
-		(property "Reference" "#PWR022"
-			(at 29.21 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCCQ"
-			(at 36.83 179.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 33.02 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4397be25-4bc1-4c9c-b824-695c88f10b6c")
-		)
-		(instances
-			(project "motor-servo"
-				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10611,6 +10111,97 @@
 			(project "motor-servo"
 				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MountingScrew_1")
+		(lib_id "Auxiliary_Items:MountingScrew")
+		(at 278.13 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ccabd5b-f587-43e7-889b-d533c1e95da3")
+		(property "Reference" "H2"
+			(at 278.13 166.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingScrew"
+			(at 278.13 173.736 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 278.13 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting screw"
+			(at 278.13 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-"
+			(at 278.13 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf216c7e-b224-4224-9816-fb9ceb6fe400")
+		)
+		(instances
+			(project "motor-servo"
+				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -10799,6 +10390,85 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 57.15 184.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fad2fd2-ffe2-4aee-b0a8-77cadec6a913")
+		(property "Reference" "#PWR014"
+			(at 60.96 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 53.34 184.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 57.15 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3dd2151b-f7e3-4e04-a362-48c0ab727dfd")
+		)
+		(instances
+			(project "motor-servo"
+				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 43.18 140.97 90)
 		(unit 1)
 		(body_style 1)
@@ -10897,7 +10567,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10"
 			(at 245.11 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -10932,6 +10602,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 245.11 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
+			(at 245.11 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11030,6 +10711,85 @@
 			(project "motor-servo"
 				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 166.37 78.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a522f4e-dcfc-4304-86d7-d1753461ddf6")
+		(property "Reference" "#PWR020"
+			(at 162.56 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 170.18 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 166.37 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73efaeaa-1c21-45cc-a664-590983b6d5bc")
+		)
+		(instances
+			(project "motor-servo"
+				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11234,7 +10994,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n (16V)"
 			(at 156.21 40.6399 0)
 			(hide yes)
 			(show_name no)
@@ -11279,7 +11039,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C60474"
+		(property "LCSC" "*"
 			(at 152.4 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11314,7 +11074,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "796dbea8-bc56-468a-a335-ba8ebeff50f2")
 		(property "Reference" "R19"
 			(at 245.11 116.84 0)
@@ -11326,7 +11086,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "120"
 			(at 251.46 118.1099 0)
 			(hide yes)
 			(show_name no)
@@ -11361,6 +11121,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 248.92 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
 			(at 248.92 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -11407,7 +11178,7 @@
 				)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22u (16V)"
 			(at 177.8 40.6399 0)
 			(hide yes)
 			(show_name no)
@@ -11419,7 +11190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 174.9552 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11452,7 +11223,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C98190"
+		(property "LCSC" "C2762594"
 			(at 173.99 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11499,7 +11270,7 @@
 				)
 			)
 		)
-		(property "Value" "22p"
+		(property "Value" "22p (16V)"
 			(at 162.56 39.3762 0)
 			(hide yes)
 			(show_name no)
@@ -11544,7 +11315,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C106203"
+		(property "LCSC" "*"
 			(at 160.02 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11839,7 +11610,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10"
 			(at 245.11 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -11883,6 +11654,17 @@
 				)
 			)
 		)
+		(property "LCSC" "*"
+			(at 245.11 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "36f88220-08dc-4e69-9571-430e76e4921d")
 		)
@@ -11893,85 +11675,6 @@
 			(project "motor-servo"
 				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCCQ")
-		(at 57.15 184.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e3ddc2a-fc09-470a-a5c8-ea5e47d017de")
-		(property "Reference" "#PWR026"
-			(at 60.96 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCCQ"
-			(at 53.34 184.1499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 57.15 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d146c21-adbc-4c5c-b5e4-c365c6e872fa")
-		)
-		(instances
-			(project "motor-servo"
-				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -12057,19 +11760,20 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 170.18 86.36 90)
+		(lib_name "MountingScrew_1")
+		(lib_id "Auxiliary_Items:MountingScrew")
+		(at 274.32 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7fd80e14-9642-4b30-98d4-62b91ff8e04b")
-		(property "Reference" "#PWR038"
-			(at 176.53 86.36 0)
+		(uuid "7f7f71d5-61f2-4d0a-9a55-2077938ad2e5")
+		(property "Reference" "H3"
+			(at 274.32 166.116 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12079,19 +11783,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 175.26 86.3599 90)
+		(property "Value" "MountingScrew"
+			(at 274.32 173.736 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 170.18 86.36 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 274.32 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12102,7 +11806,97 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 86.36 0)
+			(at 274.32 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting screw"
+			(at 274.32 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-"
+			(at 274.32 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed17395b-5c2b-4a0a-9a62-edac50cd6062")
+		)
+		(instances
+			(project "motor-servo"
+				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fd80e14-9642-4b30-98d4-62b91ff8e04b")
+		(property "Reference" "#PWR038"
+			(at 172.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 86.3599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12113,7 +11907,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 86.36 0)
+			(at 166.37 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12156,7 +11950,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1u (16V)"
 			(at 143.51 185.4199 0)
 			(hide yes)
 			(show_name no)
@@ -12201,7 +11995,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7001784"
+		(property "LCSC" "*"
 			(at 139.7 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -12222,84 +12016,6 @@
 			(project "motor-servo"
 				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCCQ")
-		(at 170.18 78.74 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "91b52b4f-43b4-4d71-9f06-256f5cdbdc8b")
-		(property "Reference" "#PWR037"
-			(at 166.37 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCCQ"
-			(at 175.26 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 170.18 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d17f1c6f-bff4-403d-961a-8dc8c01361db")
-		)
-		(instances
-			(project "motor-servo"
-				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12360,6 +12076,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 163.83 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
 			(at 163.83 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12485,7 +12212,7 @@
 				)
 			)
 		)
-		(property "Value" "220u"
+		(property "Value" "220u (16V)"
 			(at 182.88 39.7509 0)
 			(hide yes)
 			(show_name no)
@@ -12577,7 +12304,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10"
 			(at 245.11 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -12621,6 +12348,17 @@
 				)
 			)
 		)
+		(property "LCSC" "*"
+			(at 245.11 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c6e79746-739b-4fa1-b7e3-ab3027be7618")
 		)
@@ -12637,6 +12375,97 @@
 		)
 	)
 	(symbol
+		(lib_name "MountingScrew_1")
+		(lib_id "Auxiliary_Items:MountingScrew")
+		(at 281.94 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fa00755-dfa8-468d-b034-4260371c183c")
+		(property "Reference" "H1"
+			(at 281.94 166.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingScrew"
+			(at 281.94 173.736 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 281.94 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting screw"
+			(at 281.94 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-"
+			(at 281.94 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a337c3a-b02d-4680-92fb-fa5f625c14e0")
+		)
+		(instances
+			(project "motor-servo"
+				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 248.92 62.23 180)
 		(unit 1)
@@ -12645,7 +12474,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a06ebbec-6f31-43fe-8704-a392334ebbf6")
 		(property "Reference" "R16"
 			(at 245.11 62.23 0)
@@ -12657,7 +12486,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "120"
 			(at 251.46 63.4999 0)
 			(hide yes)
 			(show_name no)
@@ -12692,6 +12521,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 248.92 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
 			(at 248.92 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -12773,6 +12613,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 160.02 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
 			(at 160.02 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13149,7 +13000,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n (16V)"
 			(at 59.69 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -13184,6 +13035,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 59.69 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
+			(at 59.69 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13229,7 +13091,7 @@
 				)
 			)
 		)
-		(property "Value" "10u (HV)"
+		(property "Value" "10u (50V)"
 			(at 115.57 40.6399 0)
 			(hide yes)
 			(show_name no)
@@ -13241,7 +13103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 112.7252 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13274,6 +13136,17 @@
 				)
 			)
 		)
+		(property "LCSC" "(C194427)"
+			(at 111.76 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "42547abd-d3f3-4c23-8809-785155426c06")
 		)
@@ -13284,6 +13157,85 @@
 			(project "motor-servo"
 				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 268.605 172.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1c40fba-fb46-49a6-b916-f1ceb9849e00")
+		(property "Reference" "#PWR025"
+			(at 262.255 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.795 172.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 268.605 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 268.605 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 268.605 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1ef9484-d3eb-4d94-b66a-9077b0258c18")
+		)
+		(instances
+			(project "motor-servo"
+				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13323,7 +13275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 46.482 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -13346,6 +13298,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 48.26 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
 			(at 48.26 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13394,7 +13357,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06_MountingPin"
+		(property "Value" "master bus"
 			(at 39.37 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13844,7 +13807,7 @@
 				)
 			)
 		)
-		(property "Value" "1u (HV)"
+		(property "Value" "1u (50V)"
 			(at 120.65 40.6399 0)
 			(hide yes)
 			(show_name no)
@@ -13856,7 +13819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 117.8052 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13889,7 +13852,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "*"
 			(at 116.84 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13989,85 +13952,6 @@
 			(project "motor-servo"
 				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 57.15 179.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdb10782-231f-4fa6-960c-dd22c93baa33")
-		(property "Reference" "#PWR014"
-			(at 60.96 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 53.34 179.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 57.15 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15db4e88-2fa1-4ba9-b0c6-5f9b41286e6b")
-		)
-		(instances
-			(project "motor-servo"
-				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14312,95 +14196,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 187.96 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ca25157d-b385-4a96-b391-8bdd816c003b")
-		(property "Reference" "H4"
-			(at 187.96 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 190.5 143.5099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 187.96 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 187.96 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "-"
-			(at 187.96 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf7000a1-14c0-405d-b569-13eb52ff457b")
-		)
-		(instances
-			(project "motor-servo"
-				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 232.41 137.16 0)
 		(unit 1)
@@ -14481,6 +14276,7 @@
 	(symbol
 		(lib_id "Diode:SM712_SOT23")
 		(at 252.73 62.23 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14490,7 +14286,7 @@
 		(dnp no)
 		(uuid "cc9b79bd-d8e2-405c-9f8e-f9721c95ef29")
 		(property "Reference" "D3"
-			(at 255.27 58.42 90)
+			(at 255.27 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14501,7 +14297,7 @@
 			)
 		)
 		(property "Value" "SM712_SOT23"
-			(at 250.19 63.4999 90)
+			(at 250.19 60.9601 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14524,7 +14320,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf"
-			(at 252.73 66.04 0)
+			(at 252.73 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14596,7 +14392,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n (16V)"
 			(at 241.3 49.5299 0)
 			(hide yes)
 			(show_name no)
@@ -14641,6 +14437,17 @@
 				)
 			)
 		)
+		(property "LCSC" "*"
+			(at 237.49 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "25a74012-dfe4-4ee8-a254-7756cc6687c3")
 		)
@@ -14657,18 +14464,20 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 172.72 143.51 0)
+		(lib_id "power:VCC")
+		(at 118.11 182.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cd2b7519-ebfc-4b54-a0f9-0befe78f222b")
-		(property "Reference" "H1"
-			(at 172.72 138.43 0)
+		(fields_autoplaced yes)
+		(uuid "d0634aef-14aa-4843-a2a2-92309cec0e8a")
+		(property "Reference" "#PWR018"
+			(at 114.3 182.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14677,9 +14486,8 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 175.26 143.5099 0)
-			(hide yes)
+		(property "Value" "VCC"
+			(at 121.92 182.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14689,8 +14497,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 172.72 143.51 0)
+		(property "Footprint" ""
+			(at 118.11 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14701,7 +14509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 143.51 0)
+			(at 118.11 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14711,19 +14519,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 172.72 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "-"
-			(at 172.72 143.51 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 118.11 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14734,12 +14531,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a1b3e8b-0d55-4737-a9f4-d997472f1253")
+			(uuid "84914c21-c6d4-451d-914f-c2899d5d3b93")
 		)
 		(instances
 			(project "motor-servo"
 				(path "/27125939-5c73-473a-b0a1-1bd2161752c1"
-					(reference "H1")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -14766,7 +14563,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n (16V)"
 			(at 52.07 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -14777,7 +14574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 55.88 94.2848 0)
 			(hide yes)
 			(show_name no)
@@ -14801,6 +14598,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 52.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
+			(at 52.07 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14890,7 +14698,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C194610"
+		(property "LCSC" "C246258"
 			(at 151.13 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -14946,7 +14754,7 @@
 				)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22u (16V)"
 			(at 172.72 40.6399 0)
 			(hide yes)
 			(show_name no)
@@ -14958,7 +14766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 169.8752 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14991,7 +14799,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C98190"
+		(property "LCSC" "C2762594"
 			(at 168.91 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15118,7 +14926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n (16V)"
 			(at 241.3 104.1399 0)
 			(hide yes)
 			(show_name no)
@@ -15153,6 +14961,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 237.49 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "*"
 			(at 237.49 102.87 0)
 			(hide yes)
 			(show_name no)
